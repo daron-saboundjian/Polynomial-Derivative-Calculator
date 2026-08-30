@@ -27,7 +27,7 @@ public class Calc {
                 }
                 term = "";
 
-            // If '-' follows '^', it belongs to a negative exponent
+            // If '-' follows '^', it belongs to a negative exponent (ex. 9x^-3)
             // rather than indicating the start of a new term that happens to start with a '-' (ex. -4x^3).    
             } else if (current.equals("-")){ 
                 if (i > 0 && equation.substring(i - 1, i).equals("^")) { 
