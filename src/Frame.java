@@ -21,7 +21,7 @@ public class Frame extends JFrame implements ActionListener{
     Frame() {
         this.setTitle("Polynomial Derivative Calculator");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        this.setSize(510, 500);
+        this.setSize(520, 500);
         this.setLayout(null);
         this.getContentPane().setBackground(Color.BLACK);
         this.setResizable(false);
