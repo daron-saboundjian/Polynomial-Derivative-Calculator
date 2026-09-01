@@ -21,7 +21,7 @@ public class Frame extends JFrame implements ActionListener{
     Frame() {
         this.setTitle("Polynomial Derivative Calculator");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        this.setSize(520, 500);
+        this.setSize(500, 500);
         this.setLayout(null);
         this.getContentPane().setBackground(Color.BLACK);
         this.setResizable(false);
@@ -38,7 +38,7 @@ public class Frame extends JFrame implements ActionListener{
         instructions.setFont(new Font(null, Font.PLAIN, 15));
         instructions.setEditable(false);
         instructions.setFocusable(false);
-        instructions.setBounds(20, 75, 450, 200);
+        instructions.setBounds(20, 75, 460, 200);
 
         JTextArea equationLabel = new JTextArea("Input Function:");
         equationLabel.setBackground(Color.BLACK);
