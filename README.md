@@ -51,10 +51,4 @@ The program takes a polynomial equation (as a string) and a derivative order (ho
 ## Requirements
 
 - Java (JDK 8+ recommended) with Swing support
-
-## Building & Running
-
-\`\`\`bash
-javac Main.java Frame.java Calc.java
-java Main
-\`\`\`
+  
