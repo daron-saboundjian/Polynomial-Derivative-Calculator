@@ -2,6 +2,8 @@
 
 A simple Java Swing application that calculates the derivative of a polynomial function, with support for higher-order derivatives (2nd derivative, 3rd derivative, etc.).
 
+I created this program the summer before my freshman year of university. I made this as just a fun personal project to develop and demonstrate my Java programming skills.
+
 ## Features
 
 - Calculates derivatives of polynomials using the power rule
